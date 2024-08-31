@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm Toch Ratana</h1>
-<h1 href="https://rml-cambo.github.io/Portfolio/">Demo</h1>
-<h3 align="center">I a web developer from Cambodia</h3>
+<h1>You can demo my project <a href="https://rml-cambo.github.io/Portfolio/">Demo</a></h1>
 
 - 🔭 This website build with **HTML CSS JavaScirpt**
 
