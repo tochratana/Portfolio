@@ -119,7 +119,7 @@ section {
   grid-gap: 4em;
   /* background-color: black; */
 }
-
+/* home content */
 .home-content {
   max-width: 600px;
 }
@@ -311,7 +311,22 @@ section {
   max-width: 350px;
   height: auto;
 }
+@media (max-width: 1024px) {
+  .home-image {
+    display: none;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
+@media (max-width: 724px) {
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 .liquid-shape {
   position: absolute;
   width: 100%;
@@ -446,6 +461,9 @@ section {
 
 .services-box:hover {
   transform: translateY(-0.8rem);
+}
+.services-box > p {
+  line-height: 30px;
 }
 .services-icon {
   background-color: var(--bg-color);
@@ -602,7 +620,7 @@ section {
 }
 .portfolio-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
 }
 .port-box {
